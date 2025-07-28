@@ -109,7 +109,7 @@ After downloading, set the `llama_model` path in the model config file:
 
 ## Training and Evaluation
 
-* Training details: [MiniGPT4\_Train.md](MiniGPT4_Train.md)
+* Training details: [Dual-DP-Multimodal-LLM/duelDP_train.md](MiniGPT4_Train.md)
 * Finetuning/Evaluation: [EVAL\_README.md](eval_scripts/EVAL_README.md)
 
 ---
