@@ -6,7 +6,7 @@ The training of duelDP contains two alignment stages.
 
 In the first pretrained stage, the model is trained using image-text pairs from Laion and CC datasets
 to align the vision and language model. To download and prepare the datasets, please check 
-our [first stage dataset preparation instruction](dataset/stage-1 training.md). 
+our [first stage dataset preparation instruction](dataset/stage-1 training.md).
 After the first stage, the visual features are mapped and can be understood by the language
 model.
 To launch the first stage training, run the following command. In our experiments, we use 4 A100. 
