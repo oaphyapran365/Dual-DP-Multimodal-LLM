@@ -93,7 +93,7 @@ After downloading, set the `llama_model` path in the model config file:
 * **GPU:** 4 × NVIDIA A100-SXM4 (80 GB each)
 * **CPU:** Dual AMD EPYC 7742 (256 logical cores)
 * **RAM:** 2 TB DDR4
-* **Storage:** 1.8 TB SSD local + 41 TB shared NFS
+* **Storage:** 41 TB shared NFS
 
 ---
 
