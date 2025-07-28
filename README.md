@@ -1,0 +1,121 @@
+
+# Dual-DP
+
+Implementation of **Dual-Differential Privacy (Dual-DP)** applied to MiniGPT-4 for multimodal large language models. This project integrates **embedding-level noise (Stage 1)** and **parameter-level LoRA noise (Stage 2)** to achieve robust privacy-preserving training on image-text alignment datasets.
+
+---
+
+## Installation
+
+### 1. Prepare the Code and Environment
+
+Clone this repository, create a Conda environment, and activate it:
+
+```bash
+git clone https://github.com/oaphyapran365/Dual-DP-Multimodal-LLM.git
+cd Dual-DP-Multimodal-LLM
+conda env create -f environment.yml
+conda activate minigptv
+````
+
+---
+
+### 2. Prepare the Pretrained LLM Weights
+
+This project supports **Vicuna V0** (7B and 13B) and **Llama 2 Chat 7B** backbones. Download the required LLM weights from Hugging Face (requires `git-lfs`):
+
+| Vicuna V0 7B | Vicuna V0 13B | Llama 2 Chat 7B |
+|--------------|---------------|-----------------|
+| [Download](https://huggingface.co/Vision-CAIR/vicuna-7b/tree/main) | [Download](https://huggingface.co/Vision-CAIR/vicuna/tree/main) | [Download](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf/tree/main) |
+
+After downloading, set the `llama_model` path in the model config file:
+
+- **MiniGPT-4 (Vicuna 7B or 13B):** Edit [minigpt4_vicuna0.yaml](minigpt4/configs/models/minigpt4_vicuna0.yaml#L18) (Line 18)  
+- **MiniGPT-4 (Llama 2 7B):** Edit [minigpt4_llama2.yaml](minigpt4/configs/models/minigpt4_llama2.yaml#L15) (Line 15)
+
+
+
+
+### Resource Usage
+
+* **8-bit mode by default** (beam width = 1)
+* GPU memory required:
+
+  * **13B model**: \~23 GB
+  * **7B model**: \~11.5 GB
+* For **16-bit mode** (higher quality), set `low_resource: False` in config:
+
+  * [minigpt4\_llama2\_eval.yaml](eval_configs/minigpt4_llama2_eval.yaml#6)
+  * [minigpt4\_eval.yaml](eval_configs/minigpt4_eval.yaml#6)
+
+---
+
+## Experimental Configuration
+
+### Model Architecture
+
+* **Visual Encoder:** EVA-CLIP-G
+* **Q-Former:** BERT-based cross-attention
+
+---
+
+### Differential Privacy
+
+* **Stage-1 (Embedding DP):** `sigma_embed = 0.5`
+* **Stage-2 (Parameter DP via LoRA):** `sigma_proj = 1.0`, `clip_proj = 1.0`
+
+---
+
+### Training Hyperparameters
+
+* Batch size: 12
+* Learning rate: 3e-5 
+* Weight decay: 0.05
+* Epochs: 5
+* Warmup steps: 200
+* Image size: 224
+* Max text length: 160 tokens
+
+---
+
+
+### Dataset
+
+* **Training data:** `cc_sbu_align` (image-text alignment)
+* **Pre-processing:** BLIP2 image & caption processors
+
+---
+
+## Computing Infrastructure
+
+### Hardware
+
+* **GPU:** 2 × NVIDIA A100-SXM4 (80 GB each)
+* **CPU:** Dual AMD EPYC 7742 (256 logical cores)
+* **RAM:** 2 TB DDR4
+* **Storage:** 1.8 TB SSD local + 41 TB shared NFS
+
+---
+
+### Software
+
+* **OS:** Ubuntu 20.04 LTS, Kernel 5.15
+* **Python:** 3.9
+* **PyTorch:** 2.1.0 (CUDA 12.8)
+* **Transformers:** 4.36.0
+* Additional libraries: `timm`, `torchvision`, `einops`, `accelerate`, `gradio`
+
+---
+
+## Training and Evaluation
+
+* Training details: [MiniGPT4\_Train.md](MiniGPT4_Train.md)
+* Finetuning/Evaluation: [EVAL\_README.md](eval_scripts/EVAL_README.md)
+
+---
+
+## Acknowledgement
+
+This work builds upon [Vision-CAIR/MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4).
+
+
