@@ -24,14 +24,14 @@ conda activate minigptv
 
 This project supports **Vicuna V0** (7B and 13B) and **Llama 2 Chat 7B** backbones. Download the required LLM weights from Hugging Face (requires `git-lfs`):
 
-| Vicuna V0 7B | Vicuna V0 13B | Llama 2 Chat 7B |
+| Vicuna 7B | Vicuna 13B | Llama 2 Chat 7B |
 |--------------|---------------|-----------------|
 | [Download](https://huggingface.co/Vision-CAIR/vicuna-7b/tree/main) | [Download](https://huggingface.co/Vision-CAIR/vicuna/tree/main) | [Download](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf/tree/main) |
 
 After downloading, set the `llama_model` path in the model config file:
 
-- **MiniGPT-4 (Vicuna 7B or 13B):** Edit [minigpt4_vicuna0.yaml](minigpt4/configs/models/minigpt4_vicuna0.yaml#L18) (Line 18)  
-- **MiniGPT-4 (Llama 2 7B):** Edit [minigpt4_llama2.yaml](minigpt4/configs/models/minigpt4_llama2.yaml#L15) (Line 15)
+- **duelDP (Vicuna 7B or 13B):** Edit *duelDP_vicuna0.yaml* (Line 18)  
+- **duelDP (Llama 2 7B):** Edit *duelDP_llama2.yaml* (Line 15)
 
 
 
@@ -45,8 +45,8 @@ After downloading, set the `llama_model` path in the model config file:
   * **7B model**: \~11.5 GB
 * For **16-bit mode** (higher quality), set `low_resource: False` in config:
 
-  * [minigpt4\_llama2\_eval.yaml](eval_configs/minigpt4_llama2_eval.yaml#6)
-  * [minigpt4\_eval.yaml](eval_configs/minigpt4_eval.yaml#6)
+  *[duelDP\_llama2\_eval.yaml]*
+  *[duelDP\_eval.yaml]*
 
 ---
 
@@ -81,7 +81,7 @@ After downloading, set the `llama_model` path in the model config file:
 
 ### Dataset
 
-* **Training data:** `cc_sbu_align` (image-text alignment)
+* **Training data:** `LAION and CC3M+CC12M+SBU` (image-text alignment)
 * **Pre-processing:** BLIP2 image & caption processors
 
 ---
