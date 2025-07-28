@@ -4,7 +4,7 @@
 Images and Annotation download
 Image source | Download path
 --- | :---:
-DuelDP_evalData | <a href="https://"> annotations </a>
+DuelDP_evalData | <a href="https://"> link </a>
 
 
 ### Evaluation dataset structure
@@ -25,5 +25,5 @@ Set **ckpt** to the path of our pretrained model.
 Set **img_path** to the img_path for evaluation dataset.  
 Set **annotation** to the annotation path for evaluation dataset.    
 
-in [eval_configs/eval.py]() 
+in [eval_configs/eval.py]() & [eval_configs/tst_duelDP_eval.yaml]() and execute [eval_configs/eval.py]().
 
