@@ -1,0 +1,63 @@
+2025-05-30 18:31:03,382 [INFO] Start training
+2025-05-30 18:31:46,220 [INFO] dataset_ratios not specified, datasets will be concatenated (map-style datasets) or chained (webdataset.DataPipeline).
+2025-05-30 18:31:46,220 [INFO] Loaded 3439 records for train split from the dataset.
+batch sizes [[12]]
+module.llama_proj.weight
+module.llama_proj.bias
+2025-05-30 18:31:46,232 [INFO] number of trainable parameters: 3149824
+2025-05-30 18:31:46,233 [INFO] Start training epoch 0, 200 iters per inner epoch.
+Train: data epoch: [0]  [  0/200]  eta: 0:30:51  lr: 0.000001  loss: 0.6218  time: 9.2591  data: 0.0000  max mem: 35680
+Train: data epoch: [0]  [ 50/200]  eta: 0:02:07  lr: 0.000008  loss: 0.6483  time: 0.6246  data: 0.0000  max mem: 36258
+Train: data epoch: [0]  [100/200]  eta: 0:01:13  lr: 0.000015  loss: 0.5817  time: 0.6302  data: 0.0000  max mem: 36258
+Train: data epoch: [0]  [150/200]  eta: 0:00:35  lr: 0.000023  loss: 0.6264  time: 0.7361  data: 0.0000  max mem: 36258
+Train: data epoch: [0]  [199/200]  eta: 0:00:00  lr: 0.000030  loss: 0.7147  time: 0.6199  data: 0.0000  max mem: 36258
+Train: data epoch: [0] Total time: 0:02:18 (0.6920 s / it)
+2025-05-30 18:34:04,624 [INFO] Averaged stats: lr: 0.0000  loss: 0.6880
+2025-05-30 18:34:04,627 [INFO] No validation splits found.
+2025-05-30 18:34:04,646 [INFO] Saving checkpoint at epoch 0 to /mnt/bst/hxu10/hxu10/Abdullahil-Oaphy/MiniGPT-4/outputs/20250530182/checkpoint_0.pth.
+2025-05-30 18:34:04,737 [INFO] Start training
+2025-05-30 18:34:04,757 [INFO] Start training epoch 1, 200 iters per inner epoch.
+Train: data epoch: [1]  [  0/200]  eta: 0:02:05  lr: 0.000028  loss: 0.7642  time: 0.6296  data: 0.0000  max mem: 36258
+Train: data epoch: [1]  [ 50/200]  eta: 0:01:34  lr: 0.000027  loss: 0.6169  time: 0.6297  data: 0.0000  max mem: 36258
+Train: data epoch: [1]  [100/200]  eta: 0:01:04  lr: 0.000026  loss: 0.6596  time: 0.7395  data: 0.0000  max mem: 36258
+Train: data epoch: [1]  [150/200]  eta: 0:00:32  lr: 0.000025  loss: 0.6352  time: 0.6178  data: 0.0000  max mem: 36258
+Train: data epoch: [1]  [199/200]  eta: 0:00:00  lr: 0.000023  loss: 0.5874  time: 0.6330  data: 0.0000  max mem: 36258
+Train: data epoch: [1] Total time: 0:02:07 (0.6372 s / it)
+2025-05-30 18:36:12,200 [INFO] Averaged stats: lr: 0.0000  loss: 0.6638
+2025-05-30 18:36:12,203 [INFO] No validation splits found.
+2025-05-30 18:36:12,223 [INFO] Saving checkpoint at epoch 1 to /mnt/bst/hxu10/hxu10/Abdullahil-Oaphy/MiniGPT-4/outputs/20250530182/checkpoint_1.pth.
+2025-05-30 18:36:12,301 [INFO] Start training
+2025-05-30 18:36:12,321 [INFO] Start training epoch 2, 200 iters per inner epoch.
+Train: data epoch: [2]  [  0/200]  eta: 0:01:53  lr: 0.000023  loss: 0.6978  time: 0.5659  data: 0.0000  max mem: 36258
+Train: data epoch: [2]  [ 50/200]  eta: 0:01:40  lr: 0.000022  loss: 0.5878  time: 0.6235  data: 0.0000  max mem: 36258
+Train: data epoch: [2]  [100/200]  eta: 0:01:04  lr: 0.000020  loss: 0.5881  time: 0.6132  data: 0.0000  max mem: 36258
+Train: data epoch: [2]  [150/200]  eta: 0:00:31  lr: 0.000018  loss: 0.5699  time: 0.6186  data: 0.0000  max mem: 36258
+Train: data epoch: [2]  [199/200]  eta: 0:00:00  lr: 0.000017  loss: 0.7084  time: 0.6216  data: 0.0000  max mem: 36258
+Train: data epoch: [2] Total time: 0:02:09 (0.6451 s / it)
+2025-05-30 18:38:21,343 [INFO] Averaged stats: lr: 0.0000  loss: 0.6491
+2025-05-30 18:38:21,346 [INFO] No validation splits found.
+2025-05-30 18:38:21,365 [INFO] Saving checkpoint at epoch 2 to /mnt/bst/hxu10/hxu10/Abdullahil-Oaphy/MiniGPT-4/outputs/20250530182/checkpoint_2.pth.
+2025-05-30 18:38:21,456 [INFO] Start training
+2025-05-30 18:38:21,475 [INFO] Start training epoch 3, 200 iters per inner epoch.
+Train: data epoch: [3]  [  0/200]  eta: 0:02:06  lr: 0.000017  loss: 0.6647  time: 0.6333  data: 0.0000  max mem: 36258
+Train: data epoch: [3]  [ 50/200]  eta: 0:01:34  lr: 0.000015  loss: 0.5597  time: 0.6267  data: 0.0000  max mem: 36258
+Train: data epoch: [3]  [100/200]  eta: 0:01:02  lr: 0.000014  loss: 0.5980  time: 0.6216  data: 0.0000  max mem: 36258
+Train: data epoch: [3]  [150/200]  eta: 0:00:32  lr: 0.000013  loss: 0.5609  time: 0.6298  data: 0.0000  max mem: 36258
+Train: data epoch: [3]  [199/200]  eta: 0:00:00  lr: 0.000012  loss: 0.5348  time: 0.6331  data: 0.0000  max mem: 36258
+Train: data epoch: [3] Total time: 0:02:08 (0.6436 s / it)
+2025-05-30 18:40:30,206 [INFO] Averaged stats: lr: 0.0000  loss: 0.6366
+2025-05-30 18:40:30,209 [INFO] No validation splits found.
+2025-05-30 18:40:30,230 [INFO] Saving checkpoint at epoch 3 to /mnt/bst/hxu10/hxu10/Abdullahil-Oaphy/MiniGPT-4/outputs/20250530182/checkpoint_3.pth.
+2025-05-30 18:40:30,317 [INFO] Start training
+2025-05-30 18:40:30,337 [INFO] Start training epoch 4, 200 iters per inner epoch.
+Train: data epoch: [4]  [  0/200]  eta: 0:02:05  lr: 0.000012  loss: 0.5089  time: 0.6295  data: 0.0000  max mem: 36258
+Train: data epoch: [4]  [ 50/200]  eta: 0:01:33  lr: 0.000011  loss: 0.7710  time: 0.6154  data: 0.0000  max mem: 36258
+Train: data epoch: [4]  [100/200]  eta: 0:01:04  lr: 0.000010  loss: 0.7045  time: 0.6315  data: 0.0000  max mem: 36258
+Train: data epoch: [4]  [150/200]  eta: 0:00:31  lr: 0.000010  loss: 0.5174  time: 0.6234  data: 0.0000  max mem: 36258
+Train: data epoch: [4]  [199/200]  eta: 0:00:00  lr: 0.000010  loss: 0.6389  time: 0.6247  data: 0.0000  max mem: 36258
+Train: data epoch: [4] Total time: 0:02:06 (0.6342 s / it)
+2025-05-30 18:42:37,187 [INFO] Averaged stats: lr: 0.0000  loss: 0.6193
+2025-05-30 18:42:37,191 [INFO] No validation splits found.
+2025-05-30 18:42:37,210 [INFO] Saving checkpoint at epoch 4 to /mnt/bst/hxu10/hxu10/Abdullahil-Oaphy/MiniGPT-4/outputs/20250530182/checkpoint_4.pth.
+2025-05-30 18:42:37,294 [INFO] No validation splits found.
+2025-05-30 18:42:37,294 [INFO] Training time 0:11:33

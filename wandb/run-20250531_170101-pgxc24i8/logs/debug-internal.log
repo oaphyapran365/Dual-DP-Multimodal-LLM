@@ -1,0 +1,15 @@
+{"time":"2025-05-31T17:01:02.104794371-04:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/mnt/bst/hxu10/hxu10/Abdullahil-Oaphy/MiniGPT-4/wandb/run-20250531_170101-pgxc24i8/logs/debug-core.log"}
+{"time":"2025-05-31T17:01:04.26401622-04:00","level":"INFO","msg":"created new stream","id":"pgxc24i8"}
+{"time":"2025-05-31T17:01:04.264070628-04:00","level":"INFO","msg":"stream: started","id":"pgxc24i8"}
+{"time":"2025-05-31T17:01:04.264091441-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"pgxc24i8"}
+{"time":"2025-05-31T17:01:04.264114908-04:00","level":"INFO","msg":"sender: started","stream_id":"pgxc24i8"}
+{"time":"2025-05-31T17:01:04.264158839-04:00","level":"INFO","msg":"handler: started","stream_id":"pgxc24i8"}
+{"time":"2025-05-31T17:01:05.018109884-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-31T17:15:13.551445263-04:00","level":"INFO","msg":"stream: closing","id":"pgxc24i8"}
+{"time":"2025-05-31T17:15:13.551526211-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-31T17:15:13.551579291-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-31T17:15:14.029056182-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-31T17:15:14.112570529-04:00","level":"INFO","msg":"handler: closed","stream_id":"pgxc24i8"}
+{"time":"2025-05-31T17:15:14.112616136-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":"pgxc24i8"}
+{"time":"2025-05-31T17:15:14.112702043-04:00","level":"INFO","msg":"sender: closed","stream_id":"pgxc24i8"}
+{"time":"2025-05-31T17:15:14.113590441-04:00","level":"INFO","msg":"stream: closed","id":"pgxc24i8"}

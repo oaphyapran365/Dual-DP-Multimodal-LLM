@@ -1,0 +1,15 @@
+{"time":"2025-06-02T11:13:59.238857415-04:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/mnt/bst/hxu10/hxu10/Abdullahil-Oaphy/MiniGPT-4/wandb/run-20250602_111358-ofk6wp6y/logs/debug-core.log"}
+{"time":"2025-06-02T11:13:59.408442004-04:00","level":"INFO","msg":"created new stream","id":"ofk6wp6y"}
+{"time":"2025-06-02T11:13:59.408487681-04:00","level":"INFO","msg":"stream: started","id":"ofk6wp6y"}
+{"time":"2025-06-02T11:13:59.408516037-04:00","level":"INFO","msg":"handler: started","stream_id":"ofk6wp6y"}
+{"time":"2025-06-02T11:13:59.40853231-04:00","level":"INFO","msg":"sender: started","stream_id":"ofk6wp6y"}
+{"time":"2025-06-02T11:13:59.408509332-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"ofk6wp6y"}
+{"time":"2025-06-02T11:13:59.685868489-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-02T11:25:34.303548826-04:00","level":"INFO","msg":"stream: closing","id":"ofk6wp6y"}
+{"time":"2025-06-02T11:25:34.303620974-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-02T11:25:34.303711071-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-02T11:25:34.650460629-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-02T11:25:34.748337154-04:00","level":"INFO","msg":"handler: closed","stream_id":"ofk6wp6y"}
+{"time":"2025-06-02T11:25:34.748440032-04:00","level":"INFO","msg":"sender: closed","stream_id":"ofk6wp6y"}
+{"time":"2025-06-02T11:25:34.748430184-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ofk6wp6y"}
+{"time":"2025-06-02T11:25:34.749256701-04:00","level":"INFO","msg":"stream: closed","id":"ofk6wp6y"}

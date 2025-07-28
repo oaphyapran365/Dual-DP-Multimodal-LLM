@@ -1,0 +1,15 @@
+{"time":"2025-05-30T18:31:01.186960044-04:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/mnt/bst/hxu10/hxu10/Abdullahil-Oaphy/MiniGPT-4/wandb/run-20250530_183100-0363yp87/logs/debug-core.log"}
+{"time":"2025-05-30T18:31:02.767803606-04:00","level":"INFO","msg":"created new stream","id":"0363yp87"}
+{"time":"2025-05-30T18:31:02.767852286-04:00","level":"INFO","msg":"stream: started","id":"0363yp87"}
+{"time":"2025-05-30T18:31:02.767872401-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"0363yp87"}
+{"time":"2025-05-30T18:31:02.767886579-04:00","level":"INFO","msg":"handler: started","stream_id":"0363yp87"}
+{"time":"2025-05-30T18:31:02.767895169-04:00","level":"INFO","msg":"sender: started","stream_id":"0363yp87"}
+{"time":"2025-05-30T18:31:02.958197348-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-30T18:42:37.902251658-04:00","level":"INFO","msg":"stream: closing","id":"0363yp87"}
+{"time":"2025-05-30T18:42:37.902353978-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-30T18:42:37.902438906-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-30T18:42:38.257720154-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-30T18:42:38.390435427-04:00","level":"INFO","msg":"handler: closed","stream_id":"0363yp87"}
+{"time":"2025-05-30T18:42:38.390480546-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":"0363yp87"}
+{"time":"2025-05-30T18:42:38.390527759-04:00","level":"INFO","msg":"sender: closed","stream_id":"0363yp87"}
+{"time":"2025-05-30T18:42:38.391035864-04:00","level":"INFO","msg":"stream: closed","id":"0363yp87"}
