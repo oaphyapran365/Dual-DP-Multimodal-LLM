@@ -30,25 +30,19 @@ This project supports **Vicuna** (7B and 13B) and **Llama 2 Chat 7B** backbones.
 
 After downloading, set the `llama_model` path in the model config file:
 
-- **duelDP (Vicuna 7B or 13B):** Edit *duelDP_vicuna0.yaml* (Line 18)  
-- **duelDP (Llama 2 7B):** Edit *duelDP_llama2.yaml* (Line 15)
-
-
-
-
-### Resource Usage
-
-* **8-bit mode by default** (beam width = 1)
-* GPU memory required:
-
-  * **13B model**: \~23 GB
-  * **7B model**: \~11.5 GB
-* For **16-bit mode** (higher quality), set `low_resource: False` in config:
-
-  *[duelDP\_llama2\_eval.yaml]*
-  *[duelDP\_eval.yaml]*
+- **duelDP (Vicuna 7B or 13B):** Edit `duelDP_vicuna0.yaml` (Line 18)  
+- **duelDP (Llama 2 7B):** Edit `duelDP_llama2.yaml` (Line 15)
 
 ---
+
+## 3. Training and Evaluation
+
+* Training details: [duelDP_train.md](duelDP_train.md)
+* Finetuning/Evaluation: [eval\_readme.md](eval_configs/eval\_readme.md)
+
+---
+
+
 
 ## Experimental Configuration
 
@@ -86,6 +80,20 @@ After downloading, set the `llama_model` path in the model config file:
 
 ---
 
+### Resource Usage
+
+* **8-bit mode by default** (beam width = 1)
+* GPU memory required:
+
+  * **13B model**: \~23 GB
+  * **7B model**: \~11.5 GB
+* For **16-bit mode** (higher quality), set `low_resource: False` in config:
+
+  - `duelDP\_llama2\_eval.yaml`
+  - `duelDP\_eval.yaml`
+
+---
+
 ## Computing Infrastructure
 
 ### Hardware
@@ -107,15 +115,9 @@ After downloading, set the `llama_model` path in the model config file:
 
 ---
 
-## Training and Evaluation
-
-* Training details: [duelDP_train.md](duelDP_train.md)
-* Finetuning/Evaluation: [eval\_readme.md](eval_configs/eval\_readme.md)
-
----
 
 ## Acknowledgement
 
-This work builds upon [Vision-CAIR/MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4).
+This work builds upon and extends the excellent foundation provided by [Vision-CAIR/MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4). We extend our gratitude to the developers of MiniGPT-4 for their invaluable contributions to the field.
 
 
