@@ -2,4 +2,4 @@ datasets:
   cc_sbu_align:
     data_type: images
     build_info:
-      storage: /mnt/bst/hxu10/hxu10/Abdullahil-Oaphy/MiniGPT-4/datasetNew/cc_sbu_align
+      storage: 
