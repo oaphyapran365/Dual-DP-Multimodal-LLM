@@ -109,7 +109,7 @@ After downloading, set the `llama_model` path in the model config file:
 
 ## Training and Evaluation
 
-* Training details: [duelDP_train.md](Dual-DP-Multimodal-LLM/duelDP_train.md)
+* Training details: [duelDP_train.md](duelDP_train.md)
 * Finetuning/Evaluation: [EVAL\_README.md](eval_scripts/EVAL_README.md)
 
 ---
