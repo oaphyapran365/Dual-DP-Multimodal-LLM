@@ -20,7 +20,7 @@ torchrun --nproc-per-node NUM_GPU train.py --cfg-path train_configs/duelDP_stage
 
 **2. Second finetuning stage**
 
-To download and prepare the second stage dataset, please check [second stage dataset preparation instruction](dataset/stage-2 training.md).
+To download and prepare the second stage dataset, please check [second stage dataset preparation instruction](dataset/stage-2%20training.md).
 To launch the second stage alignment, 
 first specify the path to the checkpoint file trained in stage 1 in [train_configs/duelDP_stage1_pretrain.yaml](train_configs/duelDP_stage2_finetune.yaml).
 You can also specify the output path there. 
