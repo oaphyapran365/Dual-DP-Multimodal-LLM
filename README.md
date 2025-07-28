@@ -22,7 +22,7 @@ conda activate minigptv
 
 ### 2. Prepare the Pretrained LLM Weights
 
-This project supports **Vicuna V0** (7B and 13B) and **Llama 2 Chat 7B** backbones. Download the required LLM weights from Hugging Face (requires `git-lfs`):
+This project supports **Vicuna** (7B and 13B) and **Llama 2 Chat 7B** backbones. Download the required LLM weights from Hugging Face (requires `git-lfs`):
 
 | Vicuna 7B | Vicuna 13B | Llama 2 Chat 7B |
 |--------------|---------------|-----------------|
